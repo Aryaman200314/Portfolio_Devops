@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Smooth theme transition only when toggling */
+.theme-transition * {
+    transition:
+      background-color 320ms ease,
+      color 320ms ease,
+      border-color 320ms ease,
+      fill 420ms ease,
+      stroke 420ms ease;
+  }
+  

@@ -292,7 +292,7 @@ export default function Portfolio() {
           </div>
           <div className="flex items-center gap-3">
             <a
-              href={data.socials?.github || "https://github.com/yourname"}
+              href={data.socials?.github || "https://github.com/Aryaman200314"}
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -301,7 +301,7 @@ export default function Portfolio() {
               <Github className="w-4 h-4" />
             </a>
             <a
-              href={data.socials?.linkedin || "https://www.linkedin.com/in/yourname/"}
+              href={data.socials?.linkedin || "https://linkedin.com/in/aryaman-sharma-07a233233"}
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -520,13 +520,13 @@ export default function Portfolio() {
               <MagneticButton
                 as="a"
                 className="px-4 py-2"
-                onClick={() => (window.location.href = data.contactEmail || "mailto:aryaman@example.com")}
+                onClick={() => (window.location.href = data.contactEmail || "200314arya@gmail.com")}
               >
                 <Mail className="w-4 h-4" /> Email
               </MagneticButton>
               <MagneticButton className="px-4 py-2">
                 <a
-                  href={data.socials?.linkedin || "https://www.linkedin.com/in/yourname/"}
+                  href={data.socials?.linkedin || "https://linkedin.com/in/aryaman-sharma-07a233233"}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2"
@@ -536,7 +536,7 @@ export default function Portfolio() {
               </MagneticButton>
               <MagneticButton className="px-4 py-2">
                 <a
-                  href={data.socials?.github || "https://github.com/yourname"}
+                  href={data.socials?.github || "https://github.com/Aryaman200314"}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2"
